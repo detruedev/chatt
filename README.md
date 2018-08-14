@@ -1,6 +1,6 @@
 # Chatt
 
-This is a lifetime app.I'd like to make it so that people can chat.It'll be linked to a SNS that will be built on RoR.
+This is a lifetime app. I'd like to make it so that people can chat. It'll be linked to a SNS that will be built on RoR.
 
 ## Dir
 
@@ -21,6 +21,7 @@ Contributions are always welcome! If you want to collaborate, whether that is wi
 
 ## Contacts
 
-geoangercola@gmail.com
+email:   geoangercola@gmail.com
+twitter: http://twitter.com/shemaangelo
 
 # Thank You !
