@@ -1,36 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Log In or Up -Chatt</title>
+	<title>Chatt</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="bootstrap/jquery-3.3.1.slim.min.js"></script>
+	<script src="bootstrap/popper.min.js"></script>
+	<script src="bootstrap/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="app/basic.css"/>
-	<script type="text/javascript" src="js/basic.js"></script>
+	<script src="ext/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="ext/jquery.mCustomScrollbar.concat.min.js"></script>
 </head>
-<body>
-	<div id="bigban">
-		<img id="bigbanlogo" src="img/logo.jpg">
-		<div id="bigbanin">&nbsp;chatt</div>
-	</div>
-	<div id="main">
-		<div id="explore">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</div>
-		<div id="action">
-			<div id="banner"><img id="bannerimg">Create Account</div>
-			<form id="signbox">
-				<input id="type" type="type" name="type" value="newacc">
-				<input id="input" type="text" name="names" placeholder="Names">
-				<input id="input" type="text" name="username" placeholder="Username">
-				<input id="input" type="password" name="names" placeholder="Password">
-			</form>
-		</div>
-	</div>
-	<footer>
-		Some footing info
-	</footer>
+<body  onclick="emoji()">
+	<nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand">&otimes;</a>
+<div class="btn-group">
+  <button id="moredrop" type="button" class="btn btn-secondary rounded-circle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    &middot;&middot;&middot;
+  </button>
+  <div class="dropdown-menu dropdown-menu-right">
+    <button class="dropdown-item" type="button">My Account</button>
+    <button class="dropdown-item" type="button">Call</button>
+    <button class="dropdown-item" type="button">Settings</button>
+    <button class="dropdown-item" type="button">Logout</button>
+  </div>
+</div>
+</nav>
+
+
+<div class="fixed-bottom">
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+<div class="d-flex flex-row bd-highlight">
+  <div class="p-2 bd-highlight">Flex item 1</div>
+  <div class="p-2 bd-highlight">Flex item 2</div>
+  <div class="p-2 bd-highlight flex-grow-1">Flex item 3</div>
+</div>    </div>
+  </div>
+
+  <div class="collapse" id="navbarToggleEmoji">
+    <div class="bg-dark p-4">
+<div class="d-flex flex-row bd-highlight">
+  <div class="p-2 bd-highlight">Flex item 1</div>
+  <div class="p-2 bd-highlight">Flex item 2</div>
+  <div class="p-2 bd-highlight flex-grow-1">Flex item 3</div>
+</div>
+</div>
+  </div>
+  <nav class="navbar navbar-dark bg-light flex-row">
+  	<form class="form-inline my-2 my-lg-0 d-form">
+      <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarToggleEmoji" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="emoji-icon border-0"></span>
+      </button>
+      <input class="form-control mr-sm-2 flex-grow-1" type="search" placeholder="Search" aria-label="Search">
+      <button class="navbar-toggler bg-success" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="attach-icon border-0"></span>
+    </button>
+    </form>
+  </nav>
+</div>
+</div>
+<script type="text/javascript" src="js/basic.js"></script>
 </body>
 </html>
